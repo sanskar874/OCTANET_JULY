@@ -1,0 +1,118 @@
+@charset "utf-8"; 
+body{ font-family:Arial, Helvetica, sans-serif;
+	 background:url(../images/bg.jpg); 
+	 background-size:cover; 
+     background-attachment:fixed; 
+	 background-position:center center; 
+	 margin:0px auto !important;}
+body{
+	background-color: lightblue;
+}
+
+.main{ 
+	width:1300px; 
+	margin:0px auto 20px; 
+	-webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3) !important; 
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3) !important;
+}
+
+.p10_0{ padding:10px 0px;} .p20_0{ padding:20px 0px;}.p30_0{ padding:30px 0px;} 
+.p40_0{ padding:40px 0px;} .p50_0{ padding:50px 0px;}
+.clearfix{ clear:both;}
+
+/*********** Start Header **********/
+.header{ width:1300px; float:left; padding:10px 0px; background:#4178CB;}
+.header-left{ width:310px; float:left; padding:0px 20px;}
+.header-right{ width:950px; float:left;}
+.header-right-top{width:450px; float:left; padding-left:485px;}
+.header-right-top ul{list-style:none; margin:0px; padding-left:100px}
+.header-right-top ul li{list-style:none; font-family:arial; font-size:12px; padding:5px 0px; 
+margin:10px 0px; float:left; font-weight:bold; border-right:1px solid #000; }
+.header-right-top ul li a{ padding:5px 10px; border-radius:2px;
+margin:2px 5px 5px; text-decoration:none; color:#edeaea; background:#97958c;}
+.header-right-top ul li a:hover{background:#e3decf;}
+.header-right-bottom{ width:775px; float:left; padding:10px 25px 0px 145px;}
+.header-right-bottom ul{ list-style:none; padding:0px;}
+.header-right-bottom ul li{ text-transform:uppercase; padding:0px 0px; float:left;}
+.header-right-bottom ul li a{ text-decoration:none; font-size:14px; color:#FFF; padding:0px 20px;}
+.header-right-bottom ul li a:hover{ color:#CCC;}
+.white{ color:#FFF; text-decoration:none;}
+.white a{ color:#FFF; text-decoration:none;}
+.white a:hover{ color:#CCC;}
+/*********** End Header **********/
+
+
+/*********** Start Slider*********/
+.slider{ width:1300px; float:left; background:url(../images/slider.jpg); height:560px;}
+.slider-left{ width:700px; float:left;}
+.slider-left-h2{ color:#FFF; font-size:42px; padding:150px 50px 10px;}
+.slider-left-p{ color:#FFF; line-height:26px; font-size:15px; padding:10px 50px;}
+.slider-right{ width:460px; float:left; padding:20px; background-color: rgba(180, 164, 114, 0.5); margin:70px 50px 0px; border-radius:3px;}
+.slider-right-h3{ color:#FFF; font-size:40px; font-weight:bold; padding:10px 0px 5px;; text-align:center; text-transform:uppercase;}
+.slider-right-p{ color:#FFF; font-size:16px; padding:5px 20px 15px; text-transform:uppercase; text-align:center;}
+.slider-right-form{ width:200px; float:left; margin:7px 14px; background:#FFF; color:#000; padding:8px 5px;}
+.slider-right-textarea{ width:425px; float:left; margin:5px 14px; background:#FFF; color:#000; padding:8px 5px;}
+.slider-right-btn{ width:92%; padding:10px 30px; margin-left:-5px; margin-top:7px; color:#000; background:#aaa179;
+ border-radius:2px; font-size:15px; border:none; font-weight:600; cursor:pointer; text-transform:uppercase; }
+ .slider-right-btn:hover{ background: lightblue;}
+/*********** End Slider *********/
+
+/*********** Start Content *********/
+.content{ width:1300px; float:left;}
+.content-h2{ color:#000; padding:50px 0px 15px; text-align:center; font-size:40px; font-weight:600;}
+.content-h4{ color:#4d4a3a; padding:5px 200px 50px; line-height:27px; text-align:center; font-size:17px; font-weight:600;}
+.content-parts{ width:350px; float:left; padding:15px 16px; margin:10px 25px 40px; background:#EEE;}
+.content-parts-icons{ font-size:60px; width:65px; height:62px; padding:10px; border-radius:100px; 
+background:rgb(182, 180, 174); margin-top:-50px !important; color:#000; margin:10px auto; text-align:center;}
+.content-parts-h3{ font-size:22px; padding:15px 0px; text-align:center; color:#000; font-weight:600; text-transform:uppercase;}
+.content-parts-p{ color:#333; padding:15px; text-align:center; font-size:15px; line-height:26px;}
+/*********** End Content *********/
+
+/*********** Start Content Part 2 *********/
+.content-part-2{ width:1300px; float:left; background: lightblue; margin:20px auto;}
+.content-part-2-h3{ font-size:30px; color:#000; text-transform:uppercase; padding:30px 0px 5px; text-align:center;}
+.border-bottom{border-bottom:3px solid #FC0; width:150px; margin:0px auto 30px; }
+.content-part-2-sub{ width:260px; float:left; margin:10px 30px 30px; padding:0px 0px 10px; background:#FFF;}
+.content-part-2-sub-h4{ font-size:17px; font-weight:600; padding:10px 10px 0px; color:#06C;}
+.content-part-2-sub-p{ color:#333; font-size:14px; padding:5px 10px; line-height:26px;}
+.content-part-2-sub-price{ font-size:20px; font-weight:bold; color:#575245; padding:5px 10px 10px;}
+.content-part-2-sub-btn{ background:#0474C6; color:#FFF; text-decoration:none; text-align:center; padding:7px 20px; 
+ font-size:16px; border-radius:2px; border:none; margin:0px 10px; float:left; width:200px !important;}
+.content-part-2-sub-btn:hover{ background:#004566; text-decoration:none;}
+/*********** End Content Part 2 *********/
+
+/*********** Start Content Part 3 *********/
+.content-part-3{ width:1300px; float:left;}
+.content-part-3-left{ width:300px; margin:30px 10px; float:left;}
+.content-part-3-right{ width:310px; padding:30px 10px; float:left;}
+.content-part-3-right-h4{ font-size:17px; font-weight:600; padding:0px 10px; color:#06C;}
+.content-part-3-right-p{color:#333; font-size:14px; padding:5px 10px; line-height:26px;}
+.content-part-3-right-price{font-size:20px; font-weight:bold; color:#575245; padding:10px;}
+.content-part-3-right-btn{ background:#0474C6; color:#FFF; text-decoration:none; text-align:center; padding:7px 25px; 
+ font-size:16px; border-radius:2px; border:none; margin:10px; float:left;}
+.content-part-3-right-btn:hover{ background:#004566; text-decoration:none;}
+/*********** End Content Part 3 *********/
+
+/*********** Start Footer *********/
+.footer{ width:1300px; background:#4178cb; float:left; padding:20px 0px; margin-top:50px;}
+.footer-parts{ width:350px; float:left; padding:0px 25px;}
+.footer-parts-h4{ color:#FFF; padding:10px 0px; font-size:18px;}
+.footer-parts-p{ color:#FFF; font-size:14px; padding:5px 0px; line-height:26px; text-align:justify;}
+.footer-parts ul{ list-style:none; padding:0px 0px 0px 100px;}
+.footer-parts ul li{ padding:0px; text-transform:none; margin-top:-10px; margin-bottom:20px;}
+.footer-parts ul li a{ color:#FFF; padding:6px 0px; text-decoration:none;}
+.footer-parts ul li a:hover{ color:#BBB;}
+.form{ width:240px; border-radius:2px; padding:8px 10px; color:#000; font-size:16px; margin:10px auto; border:none; }
+.subscribe{ padding:8px 15px; background:#d4d2c6; border-radius:2px; cursor:pointer; color:#000;
+font-size:16px; margin-left:-6px; border:none;}
+.subscribe:hover{background:lightblue;}
+
+.social-links{ list-style:none; margin:10px 0px;}
+.social-links ul{ list-style:none; padding:0px 0px 0px 0px;}
+.social-links ul li{ padding:40px 10px 10px; text-transform:none; float:left; margin-top:-10px; margin-bottom:20px;}
+.social-links ul li a{ color:#FFF; padding:6px 15px 6px 0px; font-size:20px; text-decoration:none;}
+.social-links ul li a:hover{ color:#BBB;}
+
+.footer-bottom{ width:1300px; background:#3264b0; float:left; color:#FFF; text-align:center; font-size:12px; 
+font-weight:bold; padding:15px 0px !important;}
+/*********** End Footer *********/
